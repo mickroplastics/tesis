@@ -8,13 +8,13 @@ version: "Avance consolidado S10, versión 5 del 30 de octubre de 2026"
 
 # Resumen
 
-SingulariDev, unidad de Bistec LLC, busca atraer desde YouTube a emprendedores unipersonales angloparlantes interesados en agentes de inteligencia artificial. Su fundador investiga y prioriza ideas de video a mano, estima esa carga en más de 20 horas semanales y no conserva un registro que una señales, evidencia y decisiones. El proyecto desarrolla y valida un arnés agéntico con aprobación humana que separa cuatro responsabilidades: adaptadores de solo lectura que capturan historias de Hacker News y repositorios de GitHub con su procedencia; un motor determinista, sin modelo de lenguaje, que agrupa los textos con Qwen3-Embedding-0.6B en CPU y emite fichas de tendencia con crecimiento, afinidad con el perfil del canal, dos rankings y evidencia enlazada; un asistente que solo lee y redacta, con títulos y resúmenes citados; y una decisión del operador registrada con utilidad, motivo y tiempos por etapa. El prototipo, Earlyscript, es un fork de T3 Code, un estudio de agentes de código con licencia MIT, al que se añaden un espacio de Tendencias, hilos de video con guion versionado y validado, y un espacio de Resultados. Una matriz con criterios de ISO/IEC 25059:2023 justificó esta arquitectura frente a un agente generalista, con 4,45 frente a 2,55 sobre 5. El motor se evaluó sobre 50.462 ítems: en una prueba retrospectiva de cuatro cortes, la fórmula ponderada obtuvo una precisión de 0,95 entre las cinco primeras candidatas frente a 1,00 de una línea base por volumen, con una mediana de un día hasta el evento, así que avisar una o dos semanas antes no queda respaldado; el orden resistió cambios de pesos y fue sensible al umbral de agrupamiento. Sobre publicaciones de X, K-means quedó como opción provisional frente a BERTopic. Una corrida reciente sobre 28 días emitió 15 fichas en seis minutos y se reproduce por huella. La reducción de tiempo del 40 %, el respaldo factual del 90 % y la utilidad según revisores externos siguen sin medirse: el protocolo de seis pares está propuesto y los ejercicios empiezan en noviembre.
+SingulariDev, unidad de Bistec LLC, busca atraer desde YouTube a emprendedores unipersonales angloparlantes interesados en agentes de IA. Su fundador investiga y prioriza ideas de video a mano, estimaba esa carga en más de 20 horas semanales y no conserva un registro que una señales, evidencia y decisiones. El proyecto desarrolla y valida un arnés agéntico con aprobación humana en cuatro capas: adaptadores de solo lectura que capturan Hacker News y GitHub con su procedencia; un motor determinista, sin modelo de lenguaje, que agrupa los textos con Qwen3-Embedding-0.6B en CPU y emite fichas de tendencia con crecimiento, afinidad con el canal, dos rankings y evidencia enlazada; un asistente que solo lee y redacta títulos y resúmenes citados; y una decisión del operador registrada con utilidad, motivo y tiempos. El prototipo, Earlyscript, es un fork de T3 Code, un estudio de agentes de código con licencia MIT, con un espacio de Tendencias, hilos de video con guion versionado y validado, y un espacio de Resultados. Una matriz con criterios de ISO/IEC 25059:2023 lo justificó frente a un agente generalista, con 4,45 frente a 2,55 sobre 5. El motor se probó con 50.462 ítems históricos: en cuatro fechas pasadas se le pidió señalar qué temas crecían y luego se comprobó qué ocurrió. Acertó en 19 de cada 20 temas, pero una regla que solo cuenta publicaciones recientes acertó igual o más, y los temas señalados despegan al día siguiente, no una o dos semanas después. El resultado cambia poco al ajustar los pesos y mucho al ajustar el criterio de agrupamiento. Sobre X, K-means quedó como opción provisional frente a BERTopic. Una corrida reciente sobre 28 días emitió 15 fichas en seis minutos, reproducible por huella. Un registro de dos semanas midió la carga manual: al menos 14,2 y 16,1 horas semanales de búsqueda y escritura, sin grabación. La reducción de tiempo del 40 %, el respaldo factual del 90 % y la utilidad según revisores externos siguen sin medirse; los ejercicios de seis pares empiezan en noviembre.
 
 **Palabras clave:** arnés agéntico, modelos de lenguaje, detección de tendencias, priorización editorial, trazabilidad.
 
 # Abstract
 
-SingulariDev, a unit of Bistec LLC, aims to reach English-speaking solo entrepreneurs interested in artificial intelligence agents through YouTube. Its founder researches and prioritizes video ideas by hand, estimates that workload at more than 20 hours per week, and keeps no record linking signals, evidence, and decisions. The project develops and validates an agentic harness with human approval that separates four responsibilities: read-only adapters that capture Hacker News stories and GitHub repositories with their provenance; a deterministic engine, without a language model, that clusters texts with Qwen3-Embedding-0.6B on CPU, computes growth and affinity with the channel profile, and emits trend briefs with two rankings and linked evidence; an assistant that only reads and writes, producing cited titles and summaries; and an operator decision recorded with usefulness, reason, and time per stage. The prototype, Earlyscript, is a fork of T3 Code, an MIT-licensed coding-agent studio, extended with a Trends space, video threads with a versioned and validated script, and a Results space. A matrix based on ISO/IEC 25059:2023 justified this architecture over a generalist agent, scoring 4.45 versus 2.55 out of 5. The engine was evaluated in an earlier version of the prototype over 50,462 items: in a four-cutoff retrospective test, the weighted formula reached a precision of 0.95 among the top five candidates against 1.00 for a volume baseline, with a median of one day until the event, so the hypothesis of a one-to-two-week early warning is not supported; the ranking resisted weight changes and was sensitive to the clustering threshold. On X posts, K-means remained a provisional option over BERTopic. A recent run over 28 days produced 15 briefs in six minutes and is reproducible by hash. The 40 % time reduction, the 90 % factual support, and usefulness rated by external reviewers remain unmeasured: the six-pair protocol is proposed and the exercises start in November.
+SingulariDev, a unit of Bistec LLC, aims to reach English-speaking solo entrepreneurs interested in artificial intelligence agents through YouTube. Its founder researches and prioritizes video ideas by hand, estimates that workload at more than 20 hours per week, and keeps no record linking signals, evidence, and decisions. The project develops and validates an agentic harness with human approval that separates four responsibilities: read-only adapters that capture Hacker News stories and GitHub repositories with their provenance; a deterministic engine, without a language model, that clusters texts with Qwen3-Embedding-0.6B on CPU, computes growth and affinity with the channel profile, and emits trend briefs with two rankings and linked evidence; an assistant that only reads and writes, producing cited titles and summaries; and an operator decision recorded with usefulness, reason, and time per stage. The prototype, Earlyscript, is a fork of T3 Code, an MIT-licensed coding-agent studio, extended with a Trends space, video threads with a versioned and validated script, and a Results space. A matrix based on ISO/IEC 25059:2023 justified this architecture over a generalist agent, scoring 4.45 versus 2.55 out of 5. The engine was tested on 50,462 historical items: at four past dates it was asked which topics were growing, and the outcome was then checked. It was right on 19 of every 20 topics, but a simple rule that only counts recent posts did as well or better, and the flagged topics usually take off the next day, not one or two weeks later. The result changes little when the formula weights are adjusted and a lot when the clustering criterion is. On X posts, K-means remained a provisional option over BERTopic. A recent run over 28 days produced 15 briefs in six minutes and is reproducible by hash. The manual workload was measured with a two-week log: at least 14.2 and 16.1 hours per week of research and writing, excluding recording. The 40 % time reduction, the 90 % factual support, and usefulness rated by external reviewers remain unmeasured: the six-pair protocol is proposed and the exercises start in November.
 
 **Keywords:** agentic harness, language models, trend detection, editorial prioritization, traceability.
 
@@ -26,7 +26,7 @@ Este avance describe el proyecto en su estado al 31 de octubre de 2026 y sigue e
 
 ## Identificación y descripción del problema o necesidad
 
-El fundador de SingulariDev busca ideas de video, decide cuáles investigar, lee, compara, escribe un guion y decide si graba. Lo hace solo y estima que investigar y priorizar le toma más de 20 horas semanales (Brito Espejo, 2026). Es una estimación. Hecho declarado por el autor: existe un registro de dos semanas del proceso manual, con la búsqueda y la escritura separadas y el resultado de cada idea, reconstruido a partir del 1 de octubre; este avance no incorpora sus cifras porque no se verificaron todavía, y se integrará como reconstrucción, no como registro en el momento. Además, no consta qué señal llevó a cada idea, con qué criterio se filtró ni por qué se grabó, y YouTube Analytics no se conecta con la decisión que originó el video. La Figura 1 marca tres puntos donde probablemente se pierde el rastro.
+El fundador de SingulariDev busca ideas de video, decide cuáles investigar, lee, compara, escribe un guion y decide si graba. Lo hace solo y estima que investigar y priorizar le toma más de 20 horas semanales (Brito Espejo, 2026). Era una estimación; el registro de dos semanas de la Tabla 3 la reemplaza por una medición parcial. Hecho: del 1 al 14 de octubre de 2026 el operador registró cada bloque de trabajo con los tiempos de búsqueda y escritura separados y el resultado de cada idea. La primera semana es una reconstrucción posterior a partir del historial del navegador, notas y commits de fichas (Estimación); la segunda se cronometró en el momento (Hecho). Doce de los catorce días tienen registro; los dos restantes son faltantes, no cero. Siete de los 17 bloques terminaron en descarte o espera sin producir ficha, y la mitad de la búsqueda ocurrió en bloques que no produjeron escritura. Las cifras excluyen grabación y edición, no descuentan cuatro interrupciones anotadas y provienen de un solo operador: no confirman ni refutan por sí solas la estimación de 20 horas, porque miden solo búsqueda y escritura en dos semanas concretas. El archivo original se conserva como evidencia. Además, no consta qué señal llevó a cada idea, con qué criterio se filtró ni por qué se grabó, y YouTube Analytics no se conecta con la decisión que originó el video. La Figura 1 marca tres puntos donde probablemente se pierde el rastro.
 
 **Figura 1**
 
@@ -34,9 +34,25 @@ El fundador de SingulariDev busca ideas de video, decide cuáles investigar, lee
 
 ![Nota. Reconstrucción documental a partir de la Tarea 1; los recuadros rojos marcan los posibles puntos de pérdida de trazabilidad. Pendiente de validar con el operador.](archive/output/tareas/evidencias-tarea-08/figura-1-proceso-manual.png)
 
-Las causas son hipótesis: señales repartidas entre fuentes, criterios editoriales no escritos, una sola persona que investiga y produce, y fuentes que cambian cuotas y términos. La falta de miembros no es el problema que se ataca, porque depende también del video, la oferta y el precio. Al ser una necesidad de la organización y no la falla de un sistema, se analiza con un FODA (Tabla 1), aceptado por el Comité (*Reporte ejecutivo de evaluación de proyecto*, 2026).
+Las causas son hipótesis: señales repartidas entre fuentes, criterios editoriales no escritos, una sola persona que investiga y produce, y fuentes que cambian cuotas y términos. La falta de miembros no es el problema que se ataca, porque depende también del video, la oferta y el precio. Al ser una necesidad de la organización y no la falla de un sistema, se analiza con un FODA (Tabla 2), aceptado por el Comité (*Reporte ejecutivo de evaluación de proyecto*, 2026).
 
 **Tabla 1**
+
+*Registro de carga del proceso manual, 1 al 14 de octubre de 2026 (búsqueda y escritura, sin grabación)*
+
+| Medida | Semana 1, reconstruida | Semana 2, cronometrada |
+|---|---:|---:|
+| Días con registro | 6 de 7 | 6 de 7 |
+| Bloques de trabajo | 8 | 9 |
+| Búsqueda total (min) | 455 | 545 |
+| Escritura total (min) | 335 | 420, con un bloque sin medir |
+| Horas registradas, cota inferior | 14,2 | 16,1 |
+| Mediana por día con registro (min) | 155 | 180 |
+| Resultado de los bloques | 3 descartes, 2 fichas, 1 revisada, 1 guion borrador, 1 terminado | 3 descartes, 1 en espera, 1 ficha, 1 revisada, 2 borradores, 1 terminado |
+
+Nota. Medianas de dos semanas: 62,5 minutos de búsqueda por bloque y 105 de escritura en los bloques en que se escribió. No se imputan faltantes ni se descuentan interrupciones.
+
+**Tabla 2**
 
 *FODA de SingulariDev (Brito Espejo, 2026, §2.3)*
 
@@ -45,7 +61,7 @@ Las causas son hipótesis: señales repartidas entre fuentes, criterios editoria
 | **Favorable** | Canal propio con unos 7.200 suscriptores al 2 de agosto de 2026 y acceso a sus métricas. Experiencia del fundador en software, IA y contenido. | APIs y datos públicos con historial. Un segmento angloparlante nuevo de emprendedores unipersonales. Modelos de lenguaje con herramientas para sintetizar evidencia. |
 | **Desfavorable** | Operación individual con más de 20 horas semanales estimadas. Audiencia histórica en español y comunidad inglesa sin historial. Criterios manuales sin registro. | Cambios de cuotas, precios y términos de las fuentes. Sesgo, saturación y variación rápida de los temas. Alucinación del modelo y dependencia del proveedor. |
 
-La asistencia generativa redujo un 40 % el tiempo de escritura profesional (Noy y Zhang, 2023), pero preparar una idea también exige buscar y seleccionar, y en 640 emprendedores no tuvo un efecto promedio concluyente (Otis et al., 2026). Una conversación con un modelo tampoco registra fuentes, criterios ni decisiones. La necesidad es doble: menos tiempo y más trazabilidad, sin delegar la decisión. La propuesta fija seis requerimientos: decisión humana registrada con motivo y fecha; afirmaciones rastreables hasta su fuente; guiones en inglés; solo datos autorizados; inferencia de hasta 30 USD mensuales; y tiempo y calidad medibles frente al proceso manual. **[PENDIENTE: validar la Figura 1 con el operador y pasarla a BPMN; integrar y verificar el registro de dos semanas; captura fechada de YouTube Analytics.]**
+La asistencia generativa redujo un 40 % el tiempo de escritura profesional (Noy y Zhang, 2023), pero preparar una idea también exige buscar y seleccionar, y en 640 emprendedores no tuvo un efecto promedio concluyente (Otis et al., 2026). Una conversación con un modelo tampoco registra fuentes, criterios ni decisiones. La necesidad es doble: menos tiempo y más trazabilidad, sin delegar la decisión. La propuesta fija seis requerimientos: decisión humana registrada con motivo y fecha; afirmaciones rastreables hasta su fuente; guiones en inglés; solo datos autorizados; inferencia de hasta 30 USD mensuales; y tiempo y calidad medibles frente al proceso manual. **[PENDIENTE: validar la Figura 1 con el operador y pasarla a BPMN; captura fechada de YouTube Analytics.]**
 
 ## Descripción de la organización
 
@@ -61,9 +77,9 @@ Bistec LLC, sociedad de responsabilidad limitada de Wyoming, Estados Unidos, ded
 
 ## Identificación y selección de la mejor solución
 
-Las dos alternativas usan modelos de lenguaje y difieren en dónde se calcula la prioridad y cuánto control conserva el operador. En la **alternativa A, agente generalista**, un agente con herramientas consulta fuentes, interpreta señales y redacta; se construye rápido, pero su priorización queda implícita y puede cambiar entre ejecuciones. La **alternativa B, arnés híbrido y modular**, separa adaptadores, almacén de evidencia, análisis determinista y generación: la puntuación se recalcula desde datos y pesos registrados, y el operador acepta, edita o rechaza cada pieza. La Tabla 2 las compara con ocho características de ISO/IEC 25059:2023, el modelo de calidad para sistemas de IA que extiende ISO/IEC 25010 (International Organization for Standardization [ISO] e International Electrotechnical Commission [IEC], 2023). Es una estimación previa del autor, de 1 (sin mecanismo claro) a 5 (cobertura explícita y verificable).
+Las dos alternativas usan modelos de lenguaje y difieren en dónde se calcula la prioridad y cuánto control conserva el operador. En la **alternativa A, agente generalista**, un agente con herramientas consulta fuentes, interpreta señales y redacta; se construye rápido, pero su priorización queda implícita y puede cambiar entre ejecuciones. La **alternativa B, arnés híbrido y modular**, separa adaptadores, almacén de evidencia, análisis determinista y generación: la puntuación se recalcula desde datos y pesos registrados, y el operador acepta, edita o rechaza cada pieza. La Tabla 3 las compara con ocho características de ISO/IEC 25059:2023, el modelo de calidad para sistemas de IA que extiende ISO/IEC 25010 (International Organization for Standardization [ISO] e International Electrotechnical Commission [IEC], 2023). Es una estimación previa del autor, de 1 (sin mecanismo claro) a 5 (cobertura explícita y verificable).
 
-**Tabla 2**
+**Tabla 3**
 
 *Matriz de selección (Brito Espejo, 2026, §6.4)*
 
@@ -79,9 +95,9 @@ Las dos alternativas usan modelos de lenguaje y difieren en dónde se calcula la
 | Mantenibilidad e integración | 5 % | 4 | 4 |
 | **Total ponderado** | **100 %** | **2,55** | **4,45** |
 
-Se eligió B. Earlyscript la materializa: el motor no usa modelo de lenguaje, el asistente solo lee y redacta, y la decisión se graba por un camino que el modelo no puede invocar (7.2). Se parece en superficie a la alternativa A, porque el operador conversa con un agente en un hilo; la diferencia es que la prioridad la calcula el motor con pesos registrados, el agente no puntúa ni reordena y cada guion es un archivo con versiones y citas verificables. No se construyó A para compararla sobre las mismas tareas; dentro de B se compararon las alternativas técnicas de la Tabla 3. **[PENDIENTE: tabla complementaria de viabilidad, costo, innovación, impacto y tiempo que pide la guía del tutor, si confirma que complementa la matriz aprobada.]**
+Se eligió B. Earlyscript la materializa: el motor no usa modelo de lenguaje, el asistente solo lee y redacta, y la decisión se graba por un camino que el modelo no puede invocar (7.2). Se parece en superficie a la alternativa A, porque el operador conversa con un agente en un hilo; la diferencia es que la prioridad la calcula el motor con pesos registrados, el agente no puntúa ni reordena y cada guion es un archivo con versiones y citas verificables. No se construyó A para compararla sobre las mismas tareas; dentro de B se compararon las alternativas técnicas de la Tabla 4. **[PENDIENTE: tabla complementaria de viabilidad, costo, innovación, impacto y tiempo que pide la guía del tutor, si confirma que complementa la matriz aprobada.]**
 
-**Tabla 3**
+**Tabla 4**
 
 *Alternativas técnicas comparadas dentro de la solución*
 
@@ -112,7 +128,7 @@ Desarrollar y validar, entre agosto y noviembre de 2026, un arnés agéntico con
 4. Integrar un agente de código con herramientas acotadas y una interfaz gráfica para generar al menos seis fichas en inglés con evidencia, registrar cada decisión humana con su motivo y demostrar una personalización reversible.
 5. Evaluar el prototipo frente al proceso manual con seis pares de temas y dos revisores externos ciegos, para determinar si alcanza 40 % de reducción del tiempo mediano, 90 % de respaldo factual y utilidad media de 4 sobre 5, y publicar tres videos cuyos resultados se reporten sin atribución causal.
 
-La utilidad usa las anclas de la Tarea 1: 1, no utilizable; 2, cambios mayores; 3, revisión sustancial; 4, cambios menores; 5, lista para decidir. La meta se calcula con los dos revisores externos y la valoración del autor se informa aparte. El tiempo de la meta es el tiempo activo desde el inicio de la búsqueda hasta la decisión; el prototipo lo mide por etapas (explorar, leer, escribir, decidir) con un reloj con pausa (7.2). El objetivo 4 nombraba a Pi coding agent; el prototipo usa los agentes de T3 Code, desviación registrada en el Anexo 3. **[PENDIENTE: calibrar la rúbrica con los revisores; respuesta del tutor sobre las desviaciones de los objetivos 3, 4 y 5.]**
+La utilidad usa las anclas de la Tarea 1: 1, no utilizable; 2, cambios mayores; 3, revisión sustancial; 4, cambios menores; 5, lista para decidir. La meta se calcula con los dos revisores externos y la valoración del autor se informa aparte. El tiempo de la meta es el tiempo activo desde el inicio de la búsqueda hasta la decisión; el prototipo lo mide por etapas (explorar, leer, escribir, decidir) con un reloj con pausa (7.2), y la línea base manual sale del registro de la Tabla 1. El objetivo 4 nombraba a Pi coding agent; el prototipo usa los agentes de T3 Code, desviación registrada en el Anexo 3. **[PENDIENTE: calibrar la rúbrica con los revisores; respuesta del tutor sobre las desviaciones de los objetivos 3, 4 y 5.]**
 
 # Alcance
 
@@ -134,21 +150,21 @@ La utilidad usa las anclas de la Tarea 1: 1, no utilizable; 2, cambios mayores; 
 
 # Planificación y costos del proyecto
 
-Iteraciones semanales con un incremento verificable por entrega: entregable, decisiones fechadas y commit. Desde el 21 de octubre el trabajo técnico se organiza en unidades con prueba observable, delegadas a agentes de programación: un modelo implementa en una rama con batería de pruebas, un segundo modelo verifica en solo lectura y emite un veredicto, el primero corrige y el autor o su coordinador fusiona; cada decisión tomada en ausencia del autor queda registrada y es reversible. No se usó Scrum ni Kanban formal (Tabla 4).
+Iteraciones semanales con un incremento verificable por entrega: entregable, decisiones fechadas y commit. Desde el 21 de octubre el trabajo técnico se organiza en unidades con prueba observable, delegadas a agentes de programación: un modelo implementa en una rama con batería de pruebas, un segundo modelo verifica en solo lectura y emite un veredicto, el primero corrige y el autor o su coordinador fusiona; cada decisión tomada en ausencia del autor queda registrada y es reversible. No se usó Scrum ni Kanban formal (Tabla 5).
 
-**Tabla 4**
+**Tabla 5**
 
 *Cronograma de 14 semanas, previsto en la Tarea 1 y real al 31 de octubre*
 
 | Semanas de 2026 | Previsto | Real al 31 de octubre |
 |---|---|---|
 | 1 (10 a 16 ago.) | Observaciones del Comité e instrumentos | Hecho (Tarea 1) |
-| 2 a 5 (17 ago. a 13 sep.) | Credenciales, fuentes, línea base manual; arquitectura | Arquitectura hecha (Tarea 3); línea base manual sin integrar |
+| 2 a 5 (17 ago. a 13 sep.) | Credenciales, fuentes, línea base manual; arquitectura | Arquitectura hecha (Tarea 3); línea base manual registrada después, del 1 al 14 de octubre |
 | 6 a 8 (14 sep. a 4 oct.) | Recolección; agrupamiento; puntuación; revisores | Con retraso: X el 29 de sep.; ranking provisional; revisores sin identificar |
 | 9 a 10 (5 a 18 oct.) | Agente, interfaz, fichas; videos 1 y 2 | Parcial: Tareas 6 y 7; videos sin verificar |
 | 11 (19 a 25 oct.) | Prueba ciega; video 3 | Rediseño: motor de tendencias, retrospectiva, robustez, seguridad y calidad (Earlywindow) |
 | 12 (26 oct. a 1 nov.) | Análisis y corrección | Verificación del motor; traslado del entorno a Linux; fork de T3 Code y diez unidades fusionadas; S10. Ejercicios sin iniciar |
-| 13 a 14 (2 a 15 nov.) | Prototipo reproducible, informe y defensa | **[PENDIENTE: corte del 5 de nov. con un ejercicio completo con modelo real; sesiones de ejercicios; revisores; integración del registro de dos semanas; informe final; defensa probable el 13]** |
+| 13 a 14 (2 a 15 nov.) | Prototipo reproducible, informe y defensa | **[PENDIENTE: corte del 5 de nov. con un ejercicio completo con modelo real; sesiones de ejercicios; revisores; informe final; defensa probable el 13]** |
 
 Ni el motor ni el fork estaban en el cronograma: el motor respondió a que el lote de X no permitía medir tendencias y a que el ranking de la Tarea 5 no medía relevancia; el fork, a que la aplicación propia repetía con menos calidad lo que T3 Code ya resuelve y a que el autor quiere un producto que use después. La evaluación humana, los revisores y los videos son la deuda principal. **[PENDIENTE: cierres de Brightspace de S11 y S12.]**
 
@@ -174,7 +190,7 @@ Dos lecciones guiaron el diseño. Un agrupamiento más complejo no es mejor de a
 
 **Cambio de corpus.** Hecho: la Tarea 3 acordó X y Reddit; el prototipo usa Hacker News y GitHub. Justificación propuesta para el tutor: X cobra cada consulta y el lote pagado reunió 99 publicaciones capturadas en 28 minutos y 37 segundos, insuficientes para evaluar la evolución semanal de tendencias; el acceso de Reddit sigue pendiente; Hacker News aporta historial para la retrospectiva; GitHub aporta metadatos actuales, sin historial de estrellas, y queda fuera de la retrospectiva. El costo es que la población de señales cambia, la evidencia sobre X queda como histórica y la retrospectiva mide actividad en Hacker News, no utilidad para la audiencia. Hay adaptadores de cinco fuentes más (Wikipedia Pageviews, Stack Exchange, arXiv, npm y Bluesky) en la versión anterior del prototipo; ninguno entra en el corpus evaluado. Hecho: el correo al tutor no se ha enviado (Anexo 3).
 
-**Criterios de evaluación, fijados antes de ejecutar.** Sistema: las metas de la Tarea 1 (capítulo 3); el contraste de seis pares mide el tiempo por etapa, de modo que compara explorar a mano frente a la bandeja de Tendencias, escribir a mano frente a escribir con asistente sobre el mismo tema, y el proceso completo manual frente al asistido; el tiempo activo de semanas anteriores se informa con el registro de dos semanas. Retrospectiva: precisión en 5 y en 10 frente a la línea base `items_7d` y mediana de días hasta el evento. Robustez, con los umbrales del curso: una perturbación del 5 % que mueve la salida más del 40 % indica inestabilidad, y un cambio mayor del 20 % en una métrica clave exige actuar. Agrupamiento sobre X: cobertura de al menos 80 %, silueta coseno válida en cinco semillas (Rousseeuw, 1987), estabilidad ARI (Hubert y Arabie, 1985) y claridad ciega de al menos 3,5 sobre 5. Ninguna métrica técnica mide calidad editorial.
+**Criterios de evaluación, fijados antes de ejecutar.** Sistema: las metas de la Tarea 1 (capítulo 3); el contraste de seis pares mide el tiempo por etapa, de modo que compara explorar a mano frente a la bandeja de Tendencias, escribir a mano frente a escribir con asistente sobre el mismo tema, y el proceso completo manual frente al asistido; el tiempo activo del proceso manual completo se informa con el registro de dos semanas (Tabla 1). Retrospectiva: precisión en 5 y en 10 frente a la línea base `items_7d` y mediana de días hasta el evento. Robustez, con los umbrales del curso: una perturbación del 5 % que mueve la salida más del 40 % indica inestabilidad, y un cambio mayor del 20 % en una métrica clave exige actuar. Agrupamiento sobre X: cobertura de al menos 80 %, silueta coseno válida en cinco semillas (Rousseeuw, 1987), estabilidad ARI (Hubert y Arabie, 1985) y claridad ciega de al menos 3,5 sobre 5. Ninguna métrica técnica mide calidad editorial.
 
 **Decisiones de experiencia de uso.** Hecho: el autor validó en pantalla dos maquetas con datos reales, "Una mañana con Earlyscript" y "Modo manual", y fijó diez decisiones: al arrancar, si hay corrida nueva, abrir en Tendencias con el conteo de nuevas; título de una línea y resumen de tres párrafos por tendencia, redactados una vez por corrida por el asistente, marcados como tales y sin cambiar el orden; orden por defecto nuevas primero y luego por crecimiento, con selector por volumen y por afinidad; la bandeja de tendencias reutiliza el modelo de bandeja de hilos de T3 Code (no leída, seguir observando, descartar con motivo, en producción con enlace al hilo); hasta 10 nuevas visibles; reloj visible con pausa que se detiene en la decisión; tercer espacio Resultados descriptivo, sin calcular ahorro; métricas del video a mano en el hilo cerrado; modo manual sin chat ni motor con tres etapas (Explorar con navegador integrado y captura rápida, Escribir con editor Markdown y versiones, Decidir con la misma grabación); y "Ficha de tendencia" en lugar de "Expediente".
 
@@ -201,9 +217,9 @@ La Figura 3 muestra la ficha de tendencia con título y resumen redactados; la F
 
 ![Nota. Captura del 31 de octubre de 2026. A la izquierda, la bandeja: cada fila muestra la etiqueta del motor, la fuente, la primera evidencia, publicaciones y autores de siete días, la posición por puntaje y la curva. A la derecha, la misma tendencia de la Figura 3 sin título redactado: evidencia con fecha y autor, y las razones del motor para incluirla.](archive/output/tareas/evidencias-tarea-10/figura-earlyscript-bandeja-tendencias.png)
 
-**Estado de la implementación.** La Tabla 5 resume lo que está en la rama principal del prototipo al 31 de octubre de 2026 (commit `f75eebfae2`) y lo que falta. Cada unidad tiene un veredicto de un segundo modelo en solo lectura antes de fusionar; las que tocan datos recibieron "no apto" en su primera pasada y se corrigieron. La divergencia respecto de T3 Code está registrada archivo por archivo: 383 archivos cambiados, 31.448 líneas añadidas y 488 quitadas respecto del commit de origen, la mayoría en paquetes y carpetas propios.
+**Estado de la implementación.** La Tabla 6 resume lo que está en la rama principal del prototipo al 31 de octubre de 2026 (commit `f75eebfae2`) y lo que falta. Cada unidad tiene un veredicto de un segundo modelo en solo lectura antes de fusionar; las que tocan datos recibieron "no apto" en su primera pasada y se corrigieron. La divergencia respecto de T3 Code está registrada archivo por archivo: 383 archivos cambiados, 31.448 líneas añadidas y 488 quitadas respecto del commit de origen, la mayoría en paquetes y carpetas propios.
 
-**Tabla 5**
+**Tabla 6**
 
 *Componentes del prototipo y su estado al 31 de octubre de 2026*
 
@@ -233,9 +249,9 @@ Los resultados técnicos del motor se midieron en Earlywindow, la versión anter
 
 **Corrida reciente.** Hecho: corte del 31 de octubre de 2026, 28.311 historias de Hacker News en 28 días completos y 282 repositorios de GitHub en 28 días parciales, capturados en vivo; 26.037 textos embebidos; 8.776 señales, 99 `growing`; 251 pasan el perfil y 15 son elegibles; 374 segundos en Linux; `engine check` correcto. Las cinco primeras por volumen tratan de mercados y apuestas en tecnología, la salida a bolsa de un proveedor de modelos, el empleo, agentes para productos SaaS y la burbuja de IA; por fórmula, el empleo sube al primer puesto. La afinidad con el canal va de 0,60 a 0,76. La redacción de tres fichas con `claude-haiku-5-5` tardó de 12 a 22 segundos por ficha y la revisión no encontró atribuciones inventadas.
 
-**Prueba retrospectiva.** El motor se ejecutó a ciegas, solo con Hacker News y sin ajuste, en cortes del 13, 20 y 27 de septiembre y 4 de octubre. Las historias de los 14 días siguientes se asignaron a cada candidata por coseno mayor que 0,70 contra su centroide congelado; una candidata es positiva el primer día en que acumula cinco historias de dos autores, y la anticipación cuenta los días hasta ese evento (Tabla 6).
+**Prueba retrospectiva.** El motor se ejecutó a ciegas, solo con Hacker News y sin ajuste, en cortes del 13, 20 y 27 de septiembre y 4 de octubre. Las historias de los 14 días siguientes se asignaron a cada candidata por coseno mayor que 0,70 contra su centroide congelado; una candidata es positiva el primer día en que acumula cinco historias de dos autores, y la anticipación cuenta los días hasta ese evento (Tabla 7).
 
-**Tabla 6**
+**Tabla 7**
 
 *Precisión retrospectiva de la fórmula frente al orden por volumen, configuración de evaluación (`include_min` 0,60)*
 
@@ -251,9 +267,9 @@ Notas. Precisión agregada como media de los cortes; P@k usa `min(k, candidatas)
 
 **Interpretación.** La fórmula no supera a la línea base en ningún corte: pierde en el primero y empata en los otros tres. La etiqueta casi se satura: 64 de 67 candidatas cruzan el umbral, 22 el mismo día del corte, y solo 2 tardan siete días o más. La mediana mide actividad mínima en Hacker News, no interés de la audiencia. **La hipótesis de avisar una o dos semanas antes no queda respaldada.** Como el umbral 0,60 se eligió mirando el corte del 19 de octubre, esa retrospectiva no es independiente. Hipótesis: el umbral alto filtra hacia temas que ya tienen volumen. Este motor no anticipa con estos datos; eso no prueba que ninguno pueda. Por eso la ficha muestra las dos posiciones y el orden por defecto en la interfaz es por crecimiento, no por fórmula.
 
-**Robustez.** Cinco familias de perturbación con semilla fija y sin proveedor real (Tabla 7).
+**Robustez.** Cinco familias de perturbación con semilla fija y sin proveedor real (Tabla 8).
 
-**Tabla 7**
+**Tabla 8**
 
 *Pruebas de robustez del motor, configuración de evaluación*
 
@@ -270,19 +286,19 @@ Notas. Una verificación independiente recalculó el umbral y los ítems quitado
 
 **Interpretación.** La puntuación es robusta a sus pesos; el apilado es sensible a su umbral, a la muestra y a la plataforma, y la salida depende de la combinación de umbral de apilado y umbral de afinidad. Las fichas sirven como material de trabajo; ni la lista ni la posición en el top 10 son una medida estable de qué temas importan.
 
-**Verificación independiente.** Hecho: un modelo distinto del que programó verificó cada unidad en solo lectura. En la versión anterior, tres pasadas sobre la integración encontraron doce hallazgos (entre ellos motivos privados en el paquete compartible y un enlace entre ficha y perfil sin validar), corregidos antes de declararla apta. En el prototipo actual, cada unidad de la Tabla 5 tiene veredicto; el importador de corridas y el lector del formato nativo recibieron "no apto" en su primera pasada por defectos de datos (manifiesto sin protección, corrida corrupta invisible, base importada que no se reindexa) y se corrigieron antes de fusionar.
+**Verificación independiente.** Hecho: un modelo distinto del que programó verificó cada unidad en solo lectura. En la versión anterior, tres pasadas sobre la integración encontraron doce hallazgos (entre ellos motivos privados en el paquete compartible y un enlace entre ficha y perfil sin validar), corregidos antes de declararla apta. En el prototipo actual, cada unidad de la Tabla 6 tiene veredicto; el importador de corridas y el lector del formato nativo recibieron "no apto" en su primera pasada por defectos de datos (manifiesto sin protección, corrida corrupta invisible, base importada que no se reindexa) y se corrigieron antes de fusionar.
 
 **Evidencia sobre X (Tareas 5 a 7).** Sus cifras no describen al motor. La API de X devolvió 100 publicaciones; quedaron 99 textos de 94 autores en 28 minutos y 37 segundos, partidos 59, 20 y 20. Con Qwen3-Embedding-0.6B (Qwen, s. f.), UMAP ajustado con 59 textos (McInnes et al., 2018) y cinco semillas, se compararon K-means 10, K-means 5 y BERTopic con HDBSCAN (Grootendorst, 2022) sobre los mismos 79 textos. K-means 5 se eligió antes de abrir la prueba por menor fragmentación (2,6 grupos de un texto frente a 4,4) y no por superioridad: su silueta de validación fue −0,0165 ± 0,0229 frente a −0,0182 ± 0,0243, con dos semillas a favor y tres en contra; ARI de 0,88 y 0,86 en validación y prueba; BERTopic no alcanzó la cobertura mínima (0 % y 2 %). En el ensayo de la Tarea 6, el autor como único operador hizo dos fichas manuales (296,0 segundos con utilidad autovalorada 2, y otra incompleta al límite de 300 con 3) y dos asistidas (170,1 y 130,3 segundos, con 4 y 5); un tiempo censurado impide calcular ahorro. SHAP sobre un sustituto con fidelidad del 62 % (Lundberg y Lee, 2017), LIME (Ribeiro et al., 2016) y valores de Shapley exactos (Shapley, 1953) mostraron que la recencia decidía el orden y que el mismo grupo ganaba en las 171 combinaciones de pesos; por eso el motor reemplazó la recencia por crecimiento entre ventanas. El prototipo de esa etapa tiene copia pública en https://github.com/miwgel/singularidev-editorial-prototype.
 
-**Discusión frente a los criterios de éxito.** La Tabla 8 da el estado de cada criterio.
+**Discusión frente a los criterios de éxito.** La Tabla 9 da el estado de cada criterio.
 
-**Tabla 8**
+**Tabla 9**
 
 *Estado de cada criterio de éxito al 31 de octubre de 2026*
 
 | Criterio | Meta | Evidencia | Estado |
 |---|---|---|---|
-| Tiempo mediano, métrica principal | 40 % menos tiempo activo desde la búsqueda | Reloj por etapas, hilo de video y decisión fusionados; modo manual sin iniciar; registro de dos semanas declarado, sin integrar; ejercicios sin iniciar | No evaluado |
+| Tiempo mediano, métrica principal | 40 % menos tiempo activo desde la búsqueda | Línea base manual registrada (Tabla 1: mediana de 62,5 min de búsqueda por bloque y 105 de escritura); reloj por etapas, hilo de video y decisión fusionados; modo manual sin iniciar; ejercicios sin iniciar | Línea base disponible; contraste no evaluado |
 | Respaldo factual | 90 %, dos juicios | El validador cuenta afirmaciones con cita por versión; el inventario humano y los dos juicios siguen pendientes | No evaluado |
 | Utilidad | 4 sobre 5, dos revisores externos | Sin revisores; la decisión registra la del operador con anclas | No evaluable |
 | Claridad de grupos | 3,5 sobre 5, ciega | No se traslada el resultado sobre X | No evaluable |
@@ -306,9 +322,9 @@ Notas. Una verificación independiente recalculó el umbral y los ítems quitado
 
 ## Implicaciones éticas
 
-El sistema apoya una decisión de riesgo limitado, qué video preparar, pero procesa textos de terceros, los envía a un proveedor de modelos de lenguaje y produce puntuaciones que pueden inducir más confianza de la debida. La referencia es el NIST AI RMF (Tabassi, 2023) y los principios de transparencia, rendición de cuentas, equidad y privacidad (Corrêa et al., 2023). La Tabla 9 responde a la observación 4 del Comité: probabilidad e impacto son juicios cualitativos con los controles aplicados; el responsable de todas las filas es el autor (Supuesto hasta que fije proveedor y retención). "Aplicada" consta en el código fusionado; "propuesta" no existe.
+El sistema apoya una decisión de riesgo limitado, qué video preparar, pero procesa textos de terceros, los envía a un proveedor de modelos de lenguaje y produce puntuaciones que pueden inducir más confianza de la debida. La referencia es el NIST AI RMF (Tabassi, 2023) y los principios de transparencia, rendición de cuentas, equidad y privacidad (Corrêa et al., 2023). La Tabla 10 responde a la observación 4 del Comité: probabilidad e impacto son juicios cualitativos con los controles aplicados; el responsable de todas las filas es el autor (Supuesto hasta que fije proveedor y retención). "Aplicada" consta en el código fusionado; "propuesta" no existe.
 
-**Tabla 9**
+**Tabla 10**
 
 *Matriz de riesgos con probabilidad, impacto y mitigación*
 
@@ -332,9 +348,9 @@ El sistema apoya una decisión de riesgo limitado, qué video preparar, pero pro
 
 **Privacidad.** Los embeddings son locales. El servicio de títulos envía al proveedor del agente instalado los términos, los conteos y la evidencia con identificadores de cada ficha; el hilo de video envía lo que el operador escriba y adjunte. La telemetría, la analítica de terceros y la comprobación de actualizaciones de T3 Code están apagadas por bandera, con cero salidas de red medidas. El prototipo no copia credenciales: lee las sesiones de los agentes instalados en su sitio. Borrar la copia local no prueba el borrado remoto. El corpus contiene nombres públicos y no es anónimo. **[PENDIENTE: política escrita de conservación y borrado por fuente; registro de los controles de entrenamiento de los proveedores; consentimiento de los revisores.]**
 
-**Model Card.** Sección integrante del informe con los seis elementos que pide el curso, según Mitchell et al. (2019), en la Tabla 10. Describe el motor en su versión evaluada y en su porte; la Model Card del producto completo se escribirá cuando el hilo de video y el modo manual estén fusionados.
+**Model Card.** Sección integrante del informe con los seis elementos que pide el curso, según Mitchell et al. (2019), en la Tabla 11. Describe el motor en su versión evaluada y en su porte; la Model Card del producto completo se escribirá cuando el hilo de video y el modo manual estén fusionados.
 
-**Tabla 10**
+**Tabla 11**
 
 *Model Card del motor de tendencias*
 
@@ -346,14 +362,14 @@ El sistema apoya una decisión de riesgo limitado, qué video preparar, pero pro
 | Datos | Corpus congelado: 49.784 ítems de Hacker News y 678 de GitHub del 30 de agosto al 18 de octubre de 2026, 45.557 con embedding. Corpus reciente: 28.311 y 282 del 3 al 30 de octubre, 26.037 con embedding. El 91,49 % de Hacker News es solo título y todos los días de GitHub son parciales. Datos de inferencia y evaluación, en local y sin redistribución. |
 | Métricas | Retrospectiva: P@5 0,95 frente a 1,00 de `items_7d`, P@10 0,95 frente a 0,975, mediana de un día, 2 de 64 positivas con siete días o más; no supera a la línea base en ningún corte. Robustez: tau mínima 0,905 ante pesos; de 18 a 5 fichas con umbral 0,65; top 10 sustituido entre 0,20 y 0,50 al quitar el 5 %. Tiempo, respaldo y utilidad humanos sin medir. |
 | Explicabilidad | Desglose aditivo del puntaje y coseno de cada ítem con su centroide; el crecimiento aporta del 33,8 % al 64,7 % del puntaje. El modelo conversacional no tiene explicación validada. |
-| Riesgos y limitaciones | Sin anticipación demostrada. Un operador que también desarrolló el sistema. El filtro ASCII deja pasar el español. Selección sensible a los umbrales, a la muestra y a la plataforma. Evidencia casi siempre sin extracto. Instrucciones incrustadas sin marca. Detalle en la Tabla 9. |
+| Riesgos y limitaciones | Sin anticipación demostrada. Un operador que también desarrolló el sistema. El filtro ASCII deja pasar el español. Selección sensible a los umbrales, a la muestra y a la plataforma. Evidencia casi siempre sin extracto. Instrucciones incrustadas sin marca. Detalle en la Tabla 10. |
 | Uso recomendado y no previsto | Apoyo de lectura y redacción para un operador que revisa cada cita y decide. No usar para publicar sin aprobación, predecir tendencias o demanda, verificar hechos, trabajar en otros idiomas, fuentes o periodos sin evaluación, ni atribuir clics, registros o pagos. |
 
 # Conclusiones y Recomendaciones
 
 Las conclusiones son preliminares: se basan en dos corridas del motor, una retrospectiva de cuatro cortes solapados, pruebas automáticas y verificaciones de un segundo modelo, y, para la etapa sobre X, 99 textos y un ensayo de un operador. No se generalizan fuera de ese caso.
 
-1. **Objetivo 1, en curso.** La línea base manual no se acreditó en este avance: hay un diagrama preliminar, dos fichas manuales sobre X y un registro de dos semanas que el autor declara tener, sin integrar ni verificar. Las 20 horas semanales siguen siendo una estimación.
+1. **Objetivo 1, parcial.** La línea base manual existe: diagrama preliminar, dos fichas manuales sobre X y un registro de dos semanas con 17 bloques (Tabla 1), que da al menos 14,2 y 16,1 horas semanales de búsqueda y escritura, con una semana reconstruida y otra cronometrada. La estimación de 20 horas no queda confirmada ni refutada, porque el registro excluye grabación, edición y comunidad; faltan las seis fichas manuales del protocolo y la validación del diagrama.
 2. **Objetivo 2, completo con validación externa pendiente.** La matriz (4,45 frente a 2,55), los principios del motor y la arquitectura implementada reproducen la alternativa B. Falta comunicar al tutor el cambio de corpus y el cambio de plataforma.
 3. **Objetivo 3, parcial con desviación registrada.** El flujo es reproducible: un paquete congelado reconstruye la misma huella en la versión anterior y `engine check` reproduce la corrida reciente; cambiar de plataforma cambia los vectores y parte de las señales. La comparación de agrupadores existe solo sobre X, la de embeddings no se ejecutó y la claridad de grupos no es evaluable en el corpus nuevo. La fórmula no superó a la línea base por volumen y la anticipación no quedó respaldada.
 4. **Objetivo 4, parcial.** La integración con los agentes de código existe; los títulos y resúmenes se redactaron con un modelo real; el hilo de video registra versiones del guion, decisión y tiempos; el modo manual no está iniciado. Faltan las seis fichas evaluadas por el operador. La personalización reversible del perfil existe en la versión anterior y no se portó aún.
@@ -361,7 +377,7 @@ Las conclusiones son preliminares: se basan en dos corridas del motor, una retro
 
 **Síntesis.** El arnés cumple la parte de trazabilidad de la necesidad: conserva fuentes, versiones y decisiones que el proceso manual pierde, dentro de una herramienta que el operador quiere usar a diario. El tiempo queda por medir y la promesa de anticipación no se sostiene con el motor actual.
 
-**Reflexión crítica y retroalimentación integrada.** Por la observación de la Tarea 1, el Anexo 2 incluye el bloque de firmas. Por S4, las versiones están fijadas en el lockfile y la verificación exige las mismas. Por S5, se añadió un modo manual con el mismo reloj y el protocolo de seis pares. S6 valoró el descarte honesto de BERTopic; la retrospectiva informa igual el resultado desfavorable de la fórmula, y por él la interfaz muestra las dos posiciones y ordena por crecimiento. Las observaciones del Comité se responden en las Tablas 7 y 9 y en el Anexo 5. El error principal fue de calendario: construir el motor antes de medir el tiempo humano dejó la métrica principal para las dos últimas semanas, y el cambio de plataforma lo agrava si no se cumple el corte del 5 de noviembre. La corrección es el corte fijado, congelar el producto que se use para los ejercicios y separar mejoras de evaluación. A cambio, el fork redujo el código propio que hay que mantener: las unidades son paquetes y carpetas aditivos con enganches de una línea, en lugar de una aplicación de escritorio completa.
+**Reflexión crítica y retroalimentación integrada.** Por la observación de la Tarea 1, el Anexo 2 incluye el bloque de firmas. Por S4, las versiones están fijadas en el lockfile y la verificación exige las mismas. Por S5, se añadió un modo manual con el mismo reloj y el protocolo de seis pares. S6 valoró el descarte honesto de BERTopic; la retrospectiva informa igual el resultado desfavorable de la fórmula, y por él la interfaz muestra las dos posiciones y ordena por crecimiento. Las observaciones del Comité se responden en las Tablas 8 y 10 y en el Anexo 5. El error principal fue de calendario: construir el motor antes de medir el tiempo humano dejó la métrica principal para las dos últimas semanas, y el cambio de plataforma lo agrava si no se cumple el corte del 5 de noviembre. La corrección es el corte fijado, congelar el producto que se use para los ejercicios y separar mejoras de evaluación. A cambio, el fork redujo el código propio que hay que mantener: las unidades son paquetes y carpetas aditivos con enganches de una línea, en lugar de una aplicación de escritorio completa.
 
 **Recomendaciones.** Al operador: usar las fichas como apoyo de lectura, no como predicción, y abrir el artículo antes de aceptar una afirmación basada en un titular o en un resumen del asistente. Al desarrollo: fusionar solo con verificación, no presentar lo que está en rama como hecho, y probar señales con más contexto que el título. A la gobernanza: pedir a Y Combinator la aclaración de uso y aprobar la política de conservación antes de ampliar el corpus. **[PENDIENTE: conclusión por objetivo con cada meta alcanzada, no alcanzada o no evaluable, tras los ejercicios, el registro y el piloto.]**
 
@@ -369,19 +385,18 @@ Las conclusiones son preliminares: se basan en dos corridas del motor, una retro
 
 **Lo que falta de esta tesis**, como plan y no como resultado:
 
-- **Semana 13 (2 al 8 de noviembre).** Modo manual y corrida nocturna; corte del 5 de noviembre con un ejercicio completo con modelo real; adopción del protocolo y congelado del producto elegido; sesiones de ejercicios; integración del registro de dos semanas; reclutamiento y calibración de revisores; correo al tutor; demo de tres minutos y pitch. Entrega S11: informe ajustado y presentación.
+- **Semana 13 (2 al 8 de noviembre).** Modo manual y corrida nocturna; corte del 5 de noviembre con un ejercicio completo con modelo real; adopción del protocolo y congelado del producto elegido; sesiones de ejercicios; reclutamiento y calibración de revisores; correo al tutor; demo de tres minutos y pitch. Entrega S11: informe ajustado y presentación.
 - **Semana 14 (9 al 15 de noviembre).** Análisis descriptivo de tiempos y utilidad en el espacio Resultados, auditoría de afirmaciones, informe final y ensayo de defensa. Entrega S12 y defensa probable el 13.
 
-Con un solo ejecutor, los seis pares y los revisores caben en dos semanas solo si el producto queda congelado el 5 de noviembre. Si faltan pares, se informan los ejercicios hechos y el mínimo incumplido, sin relajar reglas después de ver resultados. Los pendientes que dependen de terceros están en la Tabla 11.
+Con un solo ejecutor, los seis pares y los revisores caben en dos semanas solo si el producto queda congelado el 5 de noviembre. Si faltan pares, se informan los ejercicios hechos y el mínimo incumplido, sin relajar reglas después de ver resultados. Los pendientes que dependen de terceros están en la Tabla 12.
 
-**Tabla 11**
+**Tabla 12**
 
 *Pendientes que dependen de terceros o de la evaluación, al 31 de octubre de 2026*
 
 | Pendiente | De quién depende |
 |---|---|
 | Validar la Figura 1 con el operador y pasarla a BPMN; captura fechada de YouTube Analytics | Autor |
-| Integrar y verificar el registro de dos semanas, declarado como reconstrucción | Autor |
 | Sector formal, misión y visión, estado de la comunidad; lugar de operación y obligaciones legales | Autor y auspiciante |
 | Tabla complementaria de viabilidad, costo, innovación, impacto y tiempo, si el tutor la pide | Tutor |
 | Respuesta de Y Combinator; política de conservación y borrado; controles de entrenamiento de los proveedores; consentimiento de los revisores | Terceros y autor |
@@ -483,7 +498,7 @@ Zhou, X., Zhao, Y., Jiang, O., Hu, T., Xu, C., Patwardhan, M., & Cohan, A. (2026
 
 **[PENDIENTE: confirmar con el tutor si el bloque aplica al avance y su grado académico, PhD(c) o PhD, para la portada.]**
 
-**Anexo 3. Registro de desviaciones.** Compromisos que la versión de evaluación no cumple tal cual; ninguno bloquea el producto y todos deben comunicarse al tutor, con un correo cuyo borrador existe y no se ha enviado. Las que más afectan a la evaluación: el corpus de Hacker News y GitHub en lugar de X y Reddit (7.1); la comparación de embeddings no ejecutada (Tabla 3); los agrupadores comparados solo sobre X y la anticipación no respaldada (7.3); el producto final como fork de T3 Code y no como aplicación propia sobre Pi; la ficha de ocho apartados generada por el agente sustituida por un guion escrito por el operador con asistente y validador; el modelo de lenguaje como agente instalado en la máquina y no como proveedor fijado por configuración; la interfaz editorial en español; el reloj por etapas en lugar de un cronómetro desde la búsqueda. El registro completo, con 37 filas de la versión anterior, sustituto, efecto por objetivo y estado, está en la base documental del proyecto.
+**Anexo 3. Registro de desviaciones.** Compromisos que la versión de evaluación no cumple tal cual; ninguno bloquea el producto y todos deben comunicarse al tutor, con un correo cuyo borrador existe y no se ha enviado. Las que más afectan a la evaluación: el corpus de Hacker News y GitHub en lugar de X y Reddit (7.1); la comparación de embeddings no ejecutada (Tabla 4); los agrupadores comparados solo sobre X y la anticipación no respaldada (7.3); el producto final como fork de T3 Code y no como aplicación propia sobre Pi; la ficha de ocho apartados generada por el agente sustituida por un guion escrito por el operador con asistente y validador; el modelo de lenguaje como agente instalado en la máquina y no como proveedor fijado por configuración; la interfaz editorial en español; el reloj por etapas en lugar de un cronómetro desde la búsqueda. El registro completo, con 37 filas de la versión anterior, sustituto, efecto por objetivo y estado, está en la base documental del proyecto.
 
 **Anexo 4. Entrega técnica del prototipo.** Correspondencia entre lo que pide la consigna y dónde está.
 
@@ -491,20 +506,20 @@ Zhou, X., Zhao, Y., Jiang, O., Hu, T., Xu, C., Patwardhan, M., & Cohan, A. (2026
 |---|---|
 | Implementación final y código limpio, modular y estructurado | https://github.com/mickroplastics/earlyscript, rama `main`: paquetes `editorial-contracts`, `trend-engine`, `editorial-script`; carpetas `apps/server/src/editorial`, `apps/web/src/editorial`, `apps/*/src/earlyscript`; enganches de una línea registrados en `docs/upstream-divergence.md` |
 | Modelo final validado | No se entrena un modelo: se calibran umbrales, pesos y perfil, fijados por hash en `packages/trend-engine/config/engine.v1.json` y validados con la retrospectiva y la robustez de 7.3 |
-| Mejoras del curso | Tabla 5 (unidades), capítulo 8 (reflexión) y Anexo 3 (desviaciones) |
+| Mejoras del curso | Tabla 6 (unidades), capítulo 8 (reflexión) y Anexo 3 (desviaciones) |
 | Evidencia de pruebas finales | `pnpm es:test` y batería completa de T3 Code; informes de verificación por unidad en la base documental; huellas de corrida reproducidas |
 | README: problema y solución, requisitos, ejecución paso a paso, pipeline | `README.md` del repositorio |
 | Control de versiones y demo | Historial Git con una rama por unidad y veredicto antes de fusionar; capturas en https://github.com/mickroplastics/tesis (`evidencias-tarea-10/`); video de la demo pendiente |
 | Organización de carpetas (datos, scripts, resultados) | Código en el repositorio; datos en `~/earlyscript-data/` (`corpus/`, `runs/`, `models/`, `embeddings/`, `profiles/`), fuera de Git |
-| Resultados finales, métricas comparativas, robustez | 7.3, Tablas 6 a 8 y Model Card (Tabla 10) |
+| Resultados finales, métricas comparativas, robustez | 7.3, Tablas 7 a 9 y Model Card (Tabla 11) |
 | Anexos técnicos previos | Tareas 1 a 8 en https://github.com/mickroplastics/tesis; Earlywindow (README para evaluadores, retrospectiva, robustez, paquete congelado) en repositorio privado con acceso a solicitud |
 
 **Anexo 5. Observaciones del Comité y su estado al 31 de octubre.**
 
 1. Diagramar el proceso manual: diagrama preliminar (Figura 1); BPMN pendiente.
-2. Medir la carga con registros reales: registro de dos semanas declarado por el autor, reconstruido; sin integrar ni verificar.
+2. Medir la carga con registros reales: hecho, registro del 1 al 14 de octubre de 2026 con 17 bloques (Tabla 1), una semana reconstruida y otra cronometrada; excluye grabación y edición.
 3. Anclas de utilidad y validación de la rúbrica: anclas definidas; validación con revisores pendiente.
-4. Riesgos con mitigaciones: hecho, matriz de 13 riesgos (Tabla 9).
+4. Riesgos con mitigaciones: hecho, matriz de 13 riesgos (Tabla 10).
 5. Algoritmo además de BERTopic: hecho sobre X.
 6. Sensibilidad de pesos: hecho sobre X (171 combinaciones) y sobre el motor (90 escenarios).
 7. Datos, permisos, cuotas y términos: hecho para Hacker News, GitHub, X, Reddit y YouTube; aclaración de Y Combinator pendiente.
@@ -514,7 +529,7 @@ Zhou, X., Zhao, Y., Jiang, O., Hu, T., Xu, C., Patwardhan, M., & Cohan, A. (2026
 
 **Anexo 6. Protocolo de evaluación humana.** Propuesto el 22 de octubre de 2026; su adopción, la selección de pares y la ejecución no están acreditadas. El instrumento es el hilo de video (asistido o manual) con reloj por etapas y el espacio Resultados.
 
-- **Registro.** El registro de dos semanas del autor, reconstruido, se integra declarado como tal; un día sin registro es faltante, no cero.
+- **Registro.** La línea base es el registro del 1 al 14 de octubre de 2026 (Tabla 1), que reemplaza la propuesta de registrar del 26 de octubre al 8 de noviembre; la semana reconstruida se informa separada de la cronometrada y un día sin registro es faltante, no cero.
 - **Pares y asignación.** Seis pares comparables fijados antes de conocer resultados; condición y orden por semilla registrada, tres sesiones con manual primero y tres con asistida.
 - **Tareas.** Guion en inglés con la estructura del validador y 30 minutos como límite; en manual, sin modelo generativo. Antes del primer ejercicio se fijará qué textos leen ambas condiciones y cualquier asimetría se declarará antes de medir.
 - **Tiempo.** El reloj del hilo registra explorar, leer, escribir y decidir, con pausas; el contraste principal es el proceso completo por par. Un ejercicio al límite o abandonado se informa como censurado.
