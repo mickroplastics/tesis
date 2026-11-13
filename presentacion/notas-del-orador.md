@@ -1,6 +1,6 @@
 # Notas del orador
 
-Presentación final, ronda 7, 13 de noviembre de 2026. 22 diapositivas expuestas. Frases cortas, una por línea. Tiempo total hablado: 13:00, con la demo incluida.
+Presentación final, ronda 8, 13 de noviembre de 2026. 23 diapositivas expuestas. Frases cortas, una por línea. Tiempo total hablado: 13:30, con la demo incluida.
 
 ## 1. Portada: «Earlyscript» y título aprobado
 
@@ -304,7 +304,21 @@ Dos: seguir mejorando la interfaz con datos de uso.
 
 Tres: un nuevo estudio con más creadores y más guiones, porque este fue con una persona y seis pares de temas.
 
-## 22. Un entorno de trabajo integrado para crear guiones
+## 22. Siguiente paso: del guion al video
+
+_Cierre: siguiente paso · 0:30_
+
+¿Por qué quedarnos en el guion?
+
+Los asistentes de IA ya pueden producir el video completo.
+
+El video de producto de Earlyscript lo hizo un asistente de código, Claude Opus en T3 Code, la misma base de la que deriva Earlyscript.
+
+Usó Remotion para escribir el video con código, ElevenLabs para mi voz clonada, una grabación automática de la app y ffmpeg para montarlo.
+
+La tesis dejó fuera generar videos. Ese es el siguiente paso natural: del guion al video.
+
+## 23. Un entorno de trabajo integrado para crear guiones
 
 _Cierre · 0:35_
 

@@ -8,7 +8,7 @@ version: "Borrador avanzado del informe final, semana 11, 10 de noviembre de 202
 
 # Resumen
 
-SingulariDev, unidad de Bistec LLC, enseña inteligencia artificial aplicada en YouTube. Su fundador prepara cada idea de video a mano. Medimos ese trabajo durante dos semanas: solo buscar y escribir ocupó 14,2 horas en una semana reconstruida y 16,1 en otra cronometrada, sin registro de las decisiones. Construimos Earlyscript, una aplicación de escritorio en la que la persona conserva la decisión final. Su motor revisa cada día cinco fuentes públicas, como Hacker News y GitHub. Agrupa las publicaciones con un modelo de embeddings local y entrega tarjetas con el crecimiento de cada tema, su afinidad con el canal y la evidencia enlazada. Un asistente ayuda a escribir el guion, un validador cuenta sus citas y la aplicación registra cada decisión, su motivo y el tiempo de cada etapa. Elegimos este arnés modular frente a un agente generalista con una matriz basada en ISO/IEC 25059:2023 (4,45 frente a 2,55 sobre 5). Evaluamos la herramienta con seis pares de temas sorteados: uno se trabajó a mano y el otro con asistencia. El modo asistido fue más rápido en los seis pares. El tiempo mediano bajó de 29,26 a 10,41 minutos, un 64,4 % menos, frente a una meta del 40 % (Wilcoxon exacta, p 0,031). Los guiones asistidos citaron el 94 % de sus afirmaciones, frente al 47 % de los manuales, y cada uno guarda sus fuentes, sus versiones y la decisión que lo aprobó. Todo funcionó con menos de 1 USD en pagos por uso. Dos revisores externos ciegos dieron 2,92 sobre 5 a los asistidos y 3,50 a los manuales, con una meta de 4, y el 83 % de las citas asistidas revisadas quedó respaldado, con una meta del 90 %. Nuestra hipótesis es que la diferencia viene del estilo genérico del modelo que redacta, y el trabajo futuro propone instrucciones de estilo para corregirlo. En 14 semanas, una persona con asistentes de IA construyó y evaluó una herramienta que reduce a poco más de un tercio el tiempo de escribir un guion y deja rastro de cada decisión.
+SingulariDev, unidad de Bistec LLC, enseña inteligencia artificial aplicada en YouTube. Su fundador prepara cada idea de video a mano. Medido en dos semanas, buscar y escribir ocupó 14,2 y 16,1 horas, sin registro de las decisiones. Construimos Earlyscript, una aplicación de escritorio en la que la persona conserva la decisión final. Su motor revisa cada día cinco fuentes públicas, como Hacker News y GitHub. Agrupa las publicaciones con un modelo de embeddings local y entrega tarjetas con el crecimiento de cada tema, su afinidad con el canal y la evidencia enlazada. Un asistente ayuda a escribir el guion, un validador cuenta sus citas y la aplicación registra cada decisión, su motivo y el tiempo de cada etapa. Elegimos este arnés modular frente a un agente generalista con una matriz basada en ISO/IEC 25059:2023 (4,45 frente a 2,55 sobre 5). Evaluamos la herramienta con seis pares de temas sorteados: uno se trabajó a mano y el otro con asistencia. El modo asistido fue más rápido en los seis pares. El tiempo mediano bajó de 29,26 a 10,41 minutos, un 64,4 % menos, frente a una meta del 40 % (Wilcoxon exacta, p 0,031). Los guiones asistidos citaron el 94 % de sus afirmaciones, frente al 47 % de los manuales, y cada uno guarda sus fuentes, sus versiones y la decisión que lo aprobó. Todo funcionó con menos de 1 USD en pagos por uso. Dos revisores externos ciegos dieron 2,92 sobre 5 a los asistidos y 3,50 a los manuales, con una meta de 4, y el 83 % de las citas asistidas revisadas quedó respaldado, con una meta del 90 %. Nuestra hipótesis es que la diferencia viene del estilo genérico del modelo que redacta, y el trabajo futuro propone instrucciones de estilo para corregirlo. En 14 semanas, una persona con asistentes de IA construyó y evaluó una herramienta que reduce a poco más de un tercio el tiempo de escribir un guion y deja rastro de cada decisión.
 
 **Palabras clave:** arnés agéntico, detección de tendencias, modelos de lenguaje, priorización editorial, evaluación ciega.
 
@@ -486,7 +486,7 @@ Cada tarjeta explica por qué el tema está en la lista con datos que el operado
 
 **Pruebas.** Cada cambio pasa por comprobaciones automáticas de formato, tipos y comportamiento antes de integrarse. El motor usado en los pares pasó 1.181 pruebas del motor y de las partes editoriales. Cinco corridas de referencia dieron la misma huella al repetirse. Estas pruebas dicen que el sistema funciona como se diseñó. La calidad editorial la miden los pares y la revisión ciega.
 
-**Reproducibilidad.** El código evaluado es público en https://github.com/mickroplastics/earlyscript. Su documentación explica cómo instalar, capturar fuentes, correr el motor, comprobar una corrida y arrancar la aplicación. La guía de inicio del repositorio documenta la versión evaluada. Los datos quedan en una carpeta local, fuera del repositorio. La corrida usada en los pares se repitió y dio la misma huella. El Anexo 4 conecta cada punto de la consigna con su evidencia. El Anexo 9 identifica la versión exacta, los datos y la evidencia de cada resultado.
+**Reproducibilidad.** El código evaluado es público en https://github.com/mickroplastics/earlyscript. Su documentación explica cómo instalar, capturar fuentes, correr el motor, comprobar una corrida y arrancar la aplicación. La guía de inicio del repositorio documenta la versión evaluada. Los datos quedan en una carpeta local, fuera del repositorio. La corrida usada en los pares se repitió y dio la misma huella. El Anexo 4 conecta cada punto de la consigna con su evidencia. El Anexo 9 identifica la versión exacta, los datos y la evidencia de cada resultado. La demostración de la aplicación (1:51) está en https://youtu.be/OAsI7HZujOM, y el pitch en video, de 4 minutos, en https://youtu.be/iyTH5HnXmKU.
 
 **Interfaz después de la evaluación.** Tras los seis pares mejoramos la interfaz: la pantalla de Resultados, la ficha de tendencia con un resumen que cuenta la noticia, el hilo de video, el primer arranque y Ajustes › Editorial. No tocamos el motor congelado ni la forma de medir el tiempo. El video de la demostración muestra esa versión; los resultados del capítulo 8 corresponden a la versión evaluada, con la etiqueta `motor-v3-pares`. Una instalación nueva usa por defecto el método v3 evaluado.
 
@@ -751,6 +751,7 @@ Las líneas van en orden de importancia y nacen de lo que el proyecto no midió 
 - Ofrecer text-embedding-3-large para la relevancia, porque predijo mejor, tras reentrenar, recalibrar y repetir la evaluación.
 - Informar los resultados de los tres videos del piloto de forma descriptiva, sin atribuirlos al sistema.
 - Incorporar lo que quedó fuera del alcance: pesos aprendidos de las decisiones del operador, otros idiomas y más fuentes.
+- Pasar del guion al video. Un asistente de código ya produjo el video de presentación de Earlyscript con Remotion (Remotion, 2026), que arma el video con código, y con la voz del autor clonada en ElevenLabs (ElevenLabs, 2026). Después de la evaluación dimos el primer paso: los videos de los guiones los produjo el propio asistente de Earlyscript, dentro de sus hilos. Investigó, escribió y montó cada video con Remotion y la voz del autor (Anexo 4). El pitch y la demo se hicieron con las mismas herramientas. Integrar ese paso en la aplicación extendería la herramienta más allá de la decisión, con la persona aún al mando.
 
 **Preguntas nuevas.**
 
@@ -781,6 +782,8 @@ Csaszar, F. A., Ketkar, H., & Kim, H. (2024). Artificial intelligence and strate
 Davies, D. L., & Bouldin, D. W. (1979). A cluster separation measure. *IEEE Transactions on Pattern Analysis and Machine Intelligence, 1*(2), 224–227. https://doi.org/10.1109/TPAMI.1979.4766909
 
 Egger, R., & Yu, J. (2022). A topic modeling comparison between LDA, NMF, Top2Vec, and BERTopic to demystify Twitter posts. *Frontiers in Sociology, 7*, Article 886498. https://doi.org/10.3389/fsoc.2022.886498
+
+ElevenLabs. (2026). *ElevenLabs* [Software de síntesis de voz]. https://elevenlabs.io
 
 Feng, Y., Feuerriegel, S., & Shrestha, Y. R. (2026). Contextualizing recommendation explanations with LLMs: A user study. *Proceedings of the International AAAI Conference on Web and Social Media, 20*(1), 788–803. https://doi.org/10.1609/icwsm.v20i1.42667
 
@@ -835,6 +838,8 @@ Otis, N. G., Clarke, R., Delecourt, S., Holtz, D., & Koning, R. (2026). The unev
 
 *Reporte ejecutivo de evaluación de proyecto* [Informe no publicado]. (2026). Universidad de Las Américas.
 
+Remotion. (2026). *Remotion* (Versión 4.0.543) [Software]. https://www.remotion.dev
+
 Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). "Why should I trust you?": Explaining the predictions of any classifier. En *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 1135–1144). Association for Computing Machinery. https://doi.org/10.1145/2939672.2939778
 
 Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics, 20*, 53–65. https://doi.org/10.1016/0377-0427(87)90125-7
@@ -883,7 +888,10 @@ Zhou, X., Zhao, Y., Jiang, O., Hu, T., Xu, C., Patwardhan, M., & Cohan, A. (2026
 | Mejoras del curso | Tabla 8 (componentes de Earlyscript), capítulo 8 y Anexo 8 |
 | Pruebas finales | Batería de pruebas del repositorio e informes de verificación de cada componente (Anexo 7) |
 | README | README del repositorio: problema, requisitos, ejecución paso a paso y flujo |
-| Control de versiones y demo | Historial Git del repositorio; el video de la demo se enlaza en el apartado 7.2 |
+| Control de versiones y demo | Historial Git del repositorio; video de la demostración (1:51): https://youtu.be/OAsI7HZujOM |
+| Pitch en video | Pitch de Earlyscript de 4 minutos: https://youtu.be/iyTH5HnXmKU |
+| Exposición en video | Exposición de la tesis en video (7:33), con la demostración completa: https://youtu.be/k0tGu2e-MJ0 |
+| Videos producidos con Earlyscript | Los produjo el propio asistente de Earlyscript, dentro de sus hilos, a partir de guiones de la evaluación: par 4, arneses para agentes de código (4:18): https://youtu.be/AZx7aXRMPfA |
 | Organización de carpetas | Código en el repositorio; corpus, corridas, modelos y perfiles fuera de Git, en la carpeta de datos de Earlyscript |
 | Resultados, métricas y robustez | Apartado 7.3 y Model Card (Tabla 16) |
 | Notebook ejecutable | Cuaderno de Colab con la demostración del motor (anexo de evidencia técnica) |

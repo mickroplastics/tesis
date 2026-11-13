@@ -1,6 +1,6 @@
-# Presentación final (ronda 7). Guion
+# Presentación final (ronda 8). Guion
 
-13 de noviembre de 2026. Revisión de Miguel aplicada sobre la ronda 6: 22 diapositivas expuestas, dos de referencias y cuatro de respaldo. La voz es idéntica a `notas-del-orador.md`.
+13 de noviembre de 2026. Ronda 7 más una diapositiva nueva, «Siguiente paso: del guion al video» (22). Son 23 diapositivas expuestas, 2 de referencias y 4 de respaldo. La voz es idéntica a `notas-del-orador.md`.
 
 ## Tabla de diapositivas
 
@@ -27,8 +27,9 @@
 | 19 | Resultados | Los revisores ciegos marcan el siguiente paso: darle al asistente una voz propia | 28 | 0:35 |
 | 20 | Cierre: aprendizaje | Lo que aprendí del desarrollo de software | 23 | 0:30 |
 | 21 | Cierre: trabajo futuro | Recomendaciones y trabajo futuro | 31 | 0:25 |
-| 22 | Cierre | Un entorno de trabajo integrado para crear guiones | 25 | 0:35 |
-| | | **Total** | | **13:00** |
+| 22 | Cierre: siguiente paso | Siguiente paso: del guion al video | 19 | 0:30 |
+| 23 | Cierre | Un entorno de trabajo integrado para crear guiones | 25 | 0:35 |
+| | | **Total** | | **13:30** |
 
 ---
 
@@ -288,7 +289,19 @@
 - Dos: seguir mejorando la interfaz con datos de uso.
 - Tres: un nuevo estudio con más creadores y más guiones, porque este fue con una persona y seis pares de temas.
 
-## 22. Un entorno de trabajo integrado para crear guiones · Cierre · 0:35
+## 22. Siguiente paso: del guion al video · Cierre: siguiente paso · 0:30
+
+**Pie.** Fotograma del video de producto de Earlyscript, 12 de noviembre de 2026. Lo hizo un asistente de código (Claude Opus en T3 Code) con Remotion, ElevenLabs, grabación por el protocolo de Chrome y ffmpeg; no la app Earlyscript.
+
+**Se dice.**
+
+- ¿Por qué quedarnos en el guion?
+- Los asistentes de IA ya pueden producir el video completo.
+- El video de producto de Earlyscript lo hizo un asistente de código, Claude Opus en T3 Code, la misma base de la que deriva Earlyscript.
+- Usó Remotion para escribir el video con código, ElevenLabs para mi voz clonada, una grabación automática de la app y ffmpeg para montarlo.
+- La tesis dejó fuera generar videos. Ese es el siguiente paso natural: del guion al video.
+
+## 23. Un entorno de trabajo integrado para crear guiones · Cierre · 0:35
 
 **Pie.** Objetivos 1 a 3 cumplidos; 4 y 5 cumplidos parcialmente. 20 USD al mes: estimado del autor. Ilustración: OpenAI (2026d).
 
@@ -318,5 +331,5 @@
 | 2. Contexto, 1:00 a 1:30 | 2 |
 | 3. Solución y método, 1:30 a 2:45 | 5, 8, 9, 10, 11 y 12 |
 | 4. Resultados, 2:45 a 4:00 | 17, 18 y 16 (costo) |
-| 5. Aprendizajes, 4:00 a 4:30 | 19 y 20 |
-| 6. Impacto y cierre, 4:30 a 5:00 | 22 |
+| 5. Aprendizajes, 4:00 a 4:30 | 19, 20 y 22 |
+| 6. Impacto y cierre, 4:30 a 5:00 | 23 |
